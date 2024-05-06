@@ -42,6 +42,10 @@ header nav ul, footer nav ul {
     text-transform: uppercase;
 }
 
+.speciale {
+    margin-bottom: 100px;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -247,6 +251,7 @@ h3 {
 .artista .opere img {
     width: 181px;
     height: 185px;
+    object-fit: cover;
 }
 
 .artista .opere {
@@ -265,9 +270,7 @@ h3 {
     align-items: center;
     gap: 12px;
     border-radius: 20px;
-    object-fit: cover;
 }
-
 .riga_uno {
     background: rgba(250, 133, 64, 0.50);
 }
@@ -426,8 +429,12 @@ h3 {
         margin-bottom: 100px;
     }
 
+    .speciale {
+        margin-bottom: 50px;
+    }
+
     header, footer {
-    padding: 16px 50px;
+    padding: 26px 50px;
     display: flex;
     justify-content: space-between;
     background-color: #B32424;
