@@ -423,10 +423,11 @@ h3 {
     
     .mappa {
         max-width: 300px;
+        margin: 0 auto 100px;
     }
     
     .lab {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .speciale {
