@@ -1,0 +1,447 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Almarai", "Literata", sans-serif;
+}
+
+.corpo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+}
+
+header, footer {
+    padding: 26px 50px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B32424;
+    font-size: 16px;
+}
+
+header nav ul, footer nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: "Literata";
+    font-size: 96px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+.hero h2 {
+    font-weight: normal;
+    padding: 0 0 0 100px;
+}
+
+.hero div {
+margin: 50px auto 100px 0;
+}
+
+p {
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+.cont{
+    margin-bottom: 100px;
+}
+
+h3 {
+    margin: 0;
+    font-family: "Literata";
+    font-size: 64px;
+}
+
+.info div{
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+
+
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+    max-width: 1000px;
+    margin: 0 0 200px 0;
+    padding: 0;
+    gap: 48px;
+    text-align: center;
+}
+
+.card div{
+    margin: 0;
+    border-radius: 40px 40px 30px 30px;
+}
+
+.card a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.card h4 {
+    margin: 0;
+    padding: 10px 0 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.card img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 260px;
+    object-fit:cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.uno {
+    background-color: #FA8540;
+}
+
+.due {
+    background-color: #85A2F2;
+}
+.tre {
+    background-color: #FFE359;
+}
+
+.quattro {
+    background-color: #FF59A1;
+}
+
+.cinque {
+    background-color: #BCCC00;
+}
+
+.sei {
+    background-color: #369994;
+}
+
+.sette {
+    background-color: #6688FF;
+}
+
+.otto {
+    background-color: #01C273;
+}
+
+.nove {
+    background-color: #A059B2;
+}
+
+.selezione div {
+ margin: 0;
+ margin-bottom: 100px;
+}
+
+
+.pulsanti nav ul {
+    max-width: 635px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 40px;
+    margin: 0 auto 200px;
+}
+
+.pulsanti li {
+    border-radius: 30px 30px 30px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pulsanti .uno {
+    padding: 13px 0 12px;
+}
+
+.pulsanti .due {
+    padding: 13px 0 12px;
+}
+.pulsanti .tre {
+    padding: 13px 0 12px;
+
+}
+
+.pulsanti .quattro {
+
+    padding: 13px 0 12px;
+}
+
+.pulsanti .cinque {
+
+    padding: 13px 0 12px;
+}
+
+.pulsanti .sei {
+
+    padding: 13px 0 12px;
+}
+
+.pulsanti .sette {
+
+    padding: 13px 0 12px;
+}
+
+.pulsanti .otto {
+
+    padding: 13px 0 12px;
+}
+
+.pulsanti .nove {
+    padding: 13px 0 12px;
+}
+
+.artista {
+    margin: 0 0 100px 0;
+}
+
+.artista .icinori .ultimop{
+    margin-bottom: 100px;
+}
+
+.artista h2 {
+    margin-bottom: 24px;
+}
+
+.artista .opere img {
+    width: 181px;
+    height: 185px;
+}
+
+.artista .opere {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(185px, 1fr));
+    gap: 15px;
+    margin: 0 0 200px 0;    
+}
+
+.riga_uno, .riga_due, .riga_tre, .riga_quattro, .riga_cinque, .riga_sei, .riga_sette, .riga_otto, .riga_nove {
+    margin: 0 auto;
+    max-width: 792px;
+    display: flex;
+    padding: 13px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+
+.riga_uno {
+    background: rgba(250, 133, 64, 0.50);
+}
+
+.riga_due {
+    background: rgba(133, 162, 242, 0.50)
+}
+
+.riga_tre {
+    background: rgba(255, 227, 89, 0.50);
+}
+
+.riga_quattro {
+    background: rgba(255, 89, 161, 0.50);
+}
+
+.riga_cinque {
+    background: rgba(188, 204, 0, 0.50);
+}
+
+.riga_sei {
+    background: rgba(54, 153, 148, 0.50);
+}
+
+.riga_sette {
+    background: rgba(102, 136, 255, 0.50);
+}
+
+.riga_otto {
+    background: rgba(1, 194, 115, 0.50);
+}
+
+.riga_nove {
+    background: rgba(160, 89, 178, 0.50)
+}
+
+.mission {
+    margin-bottom: 200px;
+}
+
+.dove {
+    margin-bottom: 70px;
+}
+
+.mappa {
+    max-width: 600px;
+    margin: 0 auto 100px;
+}
+
+.lab {
+    margin-bottom: 200px;
+}
+@media (max-width: 800px) {
+    .resp h1 {
+        font-size: 48px;
+    }
+
+    .resp h2 {
+        padding: 0 0 0 40px;
+        font-size: 18px;
+    }
+    .cont {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    h1 {
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    .hero div {
+    margin: 25px auto 50px 0;
+    }
+    
+    p {
+        margin-top: 12px;
+        font-size: 14px;
+    }
+    
+    .cont{
+        margin-bottom: 50px;
+    }
+    
+    h3 {
+        font-size: 32px;
+    }
+    
+    .info div{
+        margin: 0 0 25px 0;
+    }
+
+    .selezione div {
+     margin-bottom: 50px;
+    }
+    
+    
+    .pulsanti nav ul {
+        max-width: 635px;
+        gap: 20px;
+        margin: 0 auto 100px;
+    }
+    
+    .pulsanti li {
+        font-size: 12px;
+    }
+    
+    .artista {
+        margin: 0 0 50px 0;
+    }
+    
+    .artista .icinori .ultimop{
+        margin-bottom: 50px;
+    }
+    
+    .artista h2 {
+        margin-bottom: 24px;
+    }
+    
+    .artista .opere img {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .artista .opere {
+        grid-template-rows: repeat(auto-fill, minmax(85px, 1fr));
+        gap: 10px;
+        margin: 0 0 100px 0;    
+    }
+    
+    .riga_uno, .riga_due, .riga_tre, .riga_quattro, .riga_cinque, .riga_sei, .riga_sette, .riga_otto, .riga_nove {
+        padding: 9px 10px;
+        gap: 5px;
+        border-radius: 10px;
+    }
+    
+    .mission {
+        margin-bottom: 100px;
+    }
+    
+    .dove {
+        margin-bottom: 35px;
+    }
+    
+    .mappa {
+        max-width: 300px;
+    }
+    
+    .lab {
+        margin-bottom: 100px;
+    }
+
+    header, footer {
+    padding: 26px 50px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B32424;
+    font-size: 14px;
+}
+
+header nav ul, footer nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-transform: uppercase;
+}
+}
